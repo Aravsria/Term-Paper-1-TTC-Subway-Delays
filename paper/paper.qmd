@@ -1,0 +1,78 @@
+---
+title: "Week 3 Marriage Data Reflection Exercise"
+subtitle: ""
+author: 
+  - Arav Sri Agarwal
+thanks: "Code and data are available at: https://github.com/Aravsria/Week-3-Starter-Folder-Arav-Agarwal-Group-29.git"
+date: "19 September 2024"
+date-format: long
+abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+
+data <- read_csv(here::here("data/analysis_data/analysis_data.csv"))
+
+```
+
+# Introduction
+
+This paper explores the use of R programming to analyze marriage license data from open.toronto.ca. 
+
+# Data {#sec-mydatasection}
+
+Our data is related to marriages (@fig-marriage).
+
+```{r}
+#| label: fig-marriage
+#| fig-cap: Quantity of Marriage License vs Time
+#| echo: false
+
+data |> 
+  ggplot(aes(x = date, y = marriage_licenses)) +
+  geom_point()
+
+```
+
+Our data delivers insight into how the number of marriage licenses issued has varied with time
+
+
+# Discussion
+
+## First discussion point {#sec-first-point}
+
+"The analysis reveals a significant rise in marriage licenses after the pandemic"
+
+## Second discussion point
+
+## Third discussion point
+
+## Weaknesses and next steps
+
+Weaknesses and next steps...
+
+\newpage
+
+\appendix
+
+# Appendix {-}
+
+
+# Additional data details
+
+
+
+\newpage
+
+
+# References
+
+
