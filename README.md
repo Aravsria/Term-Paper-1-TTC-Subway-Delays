@@ -1,14 +1,14 @@
-# W3 Reflection Ex.: Toronto Marriage License Data Before and After the Pandemic
+# Term Paper 1: An Investigation into Toronto TTC Subway Delays
 
 ## Overview
 
-This repo provides contains data and files for a paper that analyzes marriage license data from open.toronto.ca.
+This repo provides contains data and files for a paper that analyzes TTC Subway Delay data from open.toronto.ca.
 
 ## File Structure
 
 The repo is structured as:
 
--   `data/raw_data` contains the raw data as obtained from X.
+-   `data/raw_data` contains the raw data as obtained from open.toronto.ca.
 -   `data/analysis_data` contains the cleaned dataset that was constructed.
 -   `model` contains fitted models. 
 -   `other` contains relevant literature, details about LLM chat interactions, and sketches.
@@ -18,5 +18,5 @@ The repo is structured as:
 
 ## Statement on LLM usage
 
-Aspects of the code were written with the help of the auto-complete tool, Codriver. The abstract and introduction were written with the help of ChatHorse and the entire chat history is available in inputs/llms/usage.txt.
+Major aspects of the code were written with the help of the ChatGPT 4.0 along with most of the literature in the paper. The entire chat history is available in inputs/llms/usage.txt.
 
